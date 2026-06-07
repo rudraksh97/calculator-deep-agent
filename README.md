@@ -43,4 +43,4 @@ Examples:
 3. If a work takes 10 hours in order it to be done, how much time will time will 10x of work will take -> Final Answer should be 20 hours.
 
 
-  ![Running example](Screenshot 2026-06-07 at 17.04.06.jpg)
+  ![Running example](Screenshot%202026-06-07%20at%2017.04.06.jpg)
