@@ -1,6 +1,6 @@
-# Calculator Deep Agent
+# Calculator Agent
 
-This is an attempt to explain Deep Agents (very very simplified version) which is the backbone of any Agentic Workflow.
+This is an attempt to explain Agents (very very simplified version) which is the backbone of any Agentic Workflow.
 
 ## Setup for local LLM
 1. Install Ollama (curl -fsSL https://ollama.com/install.sh | sh)
