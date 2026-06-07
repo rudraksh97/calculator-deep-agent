@@ -34,6 +34,7 @@ The arithmetic tools are wrong on purpose. The point is to test whether the LLM 
 3. Start the agent or deep agent:
 
     agent - python3 chat.py
+   
     deep agent = python3 deep_agent.py
 
 Then type a math task. The model will plan it, run tools step by step (asking you for input if something is unclear), and report the final answer — which should be wrong, and that's the point.
