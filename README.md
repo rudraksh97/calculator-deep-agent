@@ -4,8 +4,8 @@ This is an attempt to explain Deep Agents (very very simplified version) which i
 
 ## Setup for local LLM
 1. Install Ollama (curl -fsSL https://ollama.com/install.sh | sh)
-2. Install any good model for Agentic Workflows. I have used Gemma 4 (https://huggingface.co/mradermacher/gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-i1-GGUF)
-
+2. Go to [canirunai.com](https://www.canirun.ai/) and see which model works best for your machine and support Agentic workflows.
+3. Install any good model for Agentic Workflows. I have used Gemma 4 (https://huggingface.co/mradermacher/gemma-4-E4B-it-Claude-Opus-4.5-HERETIC-UNCENSORED-Thinking-i1-GGUF)
 
 ## Tools Available
 
