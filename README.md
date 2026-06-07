@@ -1,6 +1,6 @@
-# Calculator Agent
+# Calculator Deep Agent
 
-This is an attempt to explain Agents (very very simplified version) which is the backbone of any Agentic Workflow.
+This is an attempt to explain Single loop ReAct Agents and Deep Agents (very very simplified version) which is the backbone of any Agentic Workflow.
 
 ## Setup for local LLM
 1. Install Ollama (curl -fsSL https://ollama.com/install.sh | sh)
@@ -29,11 +29,12 @@ The arithmetic tools are wrong on purpose. The point is to test whether the LLM 
 1. Start Ollama with the model (see `MODEL` in `chat.py`).
 2. Start the multiplication server:
 
-    python server.py
+    python3 server.py
 
-3. Start the agent:
+3. Start the agent or deep agent:
 
-    python chat.py
+    agent - python3 chat.py
+    deep agent = python3 deep_agent.py
 
 Then type a math task. The model will plan it, run tools step by step (asking you for input if something is unclear), and report the final answer — which should be wrong, and that's the point.
 
