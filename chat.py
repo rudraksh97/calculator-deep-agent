@@ -258,8 +258,9 @@ def main():
     "tool call — never substitute a number you computed yourself. "
     "If a step requires an operation you have no tool for (e.g. division, powers), STOP "
     "immediately: do not improvise with other tools and do not compute it yourself. Reply stating which "
-    "operation is unavailable and report any results obtained so far.")
-    
+    "operation is unavailable and report any results obtained so far. Always plan first using planning tool "
+    "before executing any steps.")
+
     while True:
         input_text = input("\n👤 You: ")
         add_user_message(messages, input_text)
